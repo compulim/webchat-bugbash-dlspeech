@@ -4,7 +4,14 @@
 
 ## Create Azure Speech resource
 
-1. Go to Portal via this link https://ms.portal.azure.com/#blade/Microsoft_Azure_Marketplace/MarketplaceOffersBlade/selectedMenuItemId/CognitiveServices_MP/dontDiscardJourney/true/launchingContext/%7B%22source%22%3A%22Resources%20Microsoft.CognitiveServices%2Faccounts%22%7D
+1. Create a new Azure Speech resource, either by
+  1. [Use this link](https://ms.portal.azure.com/#blade/Microsoft_Azure_Marketplace/MarketplaceOffersBlade/selectedMenuItemId/CognitiveServices_MP/dontDiscardJourney/true/launchingContext/%7B%22source%22%3A%22Resources%20Microsoft.CognitiveServices%2Faccounts%22%7D)
+  1. On Portal
+     1. Click "Create a resource"
+     1. Click "AI + Machine Learning"
+     1. Click "See all" (next to "Featured" on top)
+     1. On "Cognitive Services" section, click "See More"
+     1. Select "Speech"
 1. In Quick Start, write down subscription key and endpoint
 
 ## Create a Web App bot
