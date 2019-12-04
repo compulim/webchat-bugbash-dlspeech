@@ -2,6 +2,10 @@
 
 # Steps
 
+## Prerequisites
+
+- Make sure your box has Node.js 8.x installed
+
 ## Create Azure Speech resource
 
 1. Create a new Azure Speech resource, either by
@@ -12,7 +16,7 @@
      1. Click "See all" (next to "Featured" on top)
      1. On "Cognitive Services" section, click "See More"
      1. Select "Speech"
-1. In Quick Start, write down subscription key and endpoint
+1. In Quick Start, write down subscription key and the region (inside endpoint, e.g. `westus2`)
 
 ## Create a Web App bot
 
@@ -24,3 +28,32 @@
 1. Go to Channels settings
    1. Adds a new "Direct Line Speech" channel
    1. Cognitive service account, select your Azure Speech resource
+
+## Create a website with Web Chat
+
+Before starting, first clone this repository.
+
+### Using a subscription key
+
+1. Edit `/transcript-using-key/index.html`
+1. Update your subscription key at `COGNITIVE_SERVICE_KEY`
+1. Update your region at `COGNITIVE_SERVICE_REGION`
+1. Host the website by running `npx serve`
+1. Navigate to the URL displayed (usually http://localhost:5000)
+
+### Using an authorization token
+
+1. Edit `/transcript-using-token/index.html`
+1. Update your subscription key at `COGNITIVE_SERVICE_KEY`
+1. Update your region at `COGNITIVE_SERVICE_REGION`
+1. Host the website by running `npx serve`
+1. Navigate to the URL displayed (usually http://localhost:5000)
+
+## Using a full React app
+
+1. Edit `/smart-display/src/fetchSpeechServicesCredentials.js`
+1. Update your subscription key at `COGNITIVE_SERVICE_KEY`
+1. Update your region at `COGNITIVE_SERVICE_REGION`
+1. Run `npm install`
+1. Run `npm start`
+1. Navigate to the URL displayed (usually http://localhost:3000)
