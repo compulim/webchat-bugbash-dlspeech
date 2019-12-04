@@ -1,10 +1,12 @@
+## https://github.com/compulim/webchat-bugbash-directline
+
 # Bug bash for Direct Line Speech with Web Chat and C#/JavaScript bot
 
 # Steps
 
 ## Prerequisites
 
-- Make sure your box has Node.js 8.x installed
+- Make sure your box has Node.js >= 8 installed
 
 ## Create Azure Speech resource
 
