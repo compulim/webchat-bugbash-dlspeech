@@ -1,4 +1,4 @@
-## https://github.com/compulim/webchat-bugbash-directline
+## https://github.com/compulim/webchat-bugbash-dlspeech
 
 # Bug bash for Direct Line Speech with Web Chat and C#/JavaScript bot
 
